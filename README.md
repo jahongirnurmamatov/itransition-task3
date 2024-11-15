@@ -1,14 +1,14 @@
-#Dice Game with Fair Random Protocol
-##Overview
+# Dice Game with Fair Random Protocol
+## Overview
 This is a command-line dice game where two players (you and the computer) select dice, throw them, and determine the winner based on the outcome. The game includes a Fair Random Protocol to randomly choose which player starts the game, using HMAC (Hash-based Message Authentication Code) to ensure fairness.
 
-##Features
+## Features
 - **Fair Random Selection**: The computer selects a random value and the user must guess it to determine who goes first.
 - **Dice Selection**: Both players choose their dice, each with different values.
 - **Game Flow**: Players take turns throwing dice, and the winner is determined by comparing the dice results.
 - **ASCII Table Display**: The result of the game ("I win" or "You win") is displayed in an ASCII table, making the outcome more prominent.
 
-##Requirements
+## Requirements
 - **Node.js**: This project requires Node.js to run. You can download it from here.
 
 - **Dependencies**:
@@ -17,19 +17,16 @@ This is a command-line dice game where two players (you and the computer) select
     - `ascii-table`: To create and display ASCII tables.
 
 You can install the dependencies by running:
-```
-npm install
-```
-##Setup
-   
-1.Clone this repository to your local machine:
-```
-git clone https://github.com/yourusername/dice-game.git
-cd dice-game```
+```npm install 
 
-2.Install the necessary dependencies:
-```
-npm install````
+## Setup
+   
+1. Clone this repository to your local machine:
+ ``` git clone https://github.com/yourusername/dice-game.git
+ ``` cd dice-game
+
+2. Install the necessary dependencies:
+  ```npm install``` 
 
 3. Run the game:
 
