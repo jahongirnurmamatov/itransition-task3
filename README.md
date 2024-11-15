@@ -22,8 +22,9 @@ You can install the dependencies by running:
 ## Setup
    
 1. Clone this repository to your local machine:
- ```git clone https://github.com/yourusername/dice-game.git
-  cd dice-game
+
+ ``` git@github.com:jahongirnurmamatov/itransition-task3.git
+     cd itransition-task3
 ```
 
 2. Install the necessary dependencies:
@@ -56,6 +57,9 @@ node main.js 2,3,5,4,5 5,4,6,7,7,5 4,8,9,5,3,4
 
 6.**Exit**:
     - Type X to exit the game at any time.
+    
+## Cheating Prevention
+    - You can verify authenticity of computer's selection by comparing HMAC number using secret KEY which is shown with computer's guess each time.
 
 ## Example Output
 When you start the game and make your guess:
