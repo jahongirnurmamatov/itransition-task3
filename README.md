@@ -37,25 +37,25 @@ node main.js 2,3,5,4,5 5,4,6,7,7,5 4,8,9,5,3,4
 ## Game Instructions
 
 1.**Starting the Game**:
+    - The game starts by determining who makes the first move.
+    - The computer selects a random value, and you have to guess it.
 
-    -The game starts by determining who makes the first move.
-    -The computer selects a random value, and you have to guess it.
 2.**Selecting Dice**:
-    -After the first move is determined, you will be asked to choose one of the available dice.
-    -The computer will also choose its dice, and the game proceeds to the throw.
+    - After the first move is determined, you will be asked to choose one of the available dice.
+    - The computer will also choose its dice, and the game proceeds to the throw.
 
 3.**Throwing Dice**:
-    -Players take turns selecting a number to add to their dice roll.
-    -The dice values are used to determine the winner.
+    - Players take turns selecting a number to add to their dice roll.
+    - The dice values are used to determine the winner.
 
 4.**Winning**:
-    -After each round, the winner is displayed in an ASCII table with the message "I WIN!" or "YOU WIN!" in bold, making it stand out.
+    - After each round, the winner is displayed in an ASCII table with the message "I WIN!" or "YOU WIN!" in bold, making it stand out.
 
 5.**Help**:
-    -You can type ? at any point to display the current probability matrix for dice throws.
+    - You can type ? at any point to display the current probability matrix for dice throws.
 
 6.**Exit**:
-    -Type X to exit the game at any time.
+    - Type X to exit the game at any time.
 
 ## Example Output
 When you start the game and make your guess:
