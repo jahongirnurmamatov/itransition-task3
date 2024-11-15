@@ -17,22 +17,24 @@ This is a command-line dice game where two players (you and the computer) select
     - `ascii-table`: To create and display ASCII tables.
 
 You can install the dependencies by running:
-```npm install 
+```npm install ```
 
 ## Setup
    
 1. Clone this repository to your local machine:
- ``` git clone https://github.com/yourusername/dice-game.git
- ``` cd dice-game
+ ```git clone https://github.com/yourusername/dice-game.git
+  cd dice-game
+```
 
 2. Install the necessary dependencies:
   ```npm install``` 
 
 3. Run the game:
-
+```
 node main.js 2,3,5,4,5 5,4,6,7,7,5 4,8,9,5,3,4
+```
 
-##Game Instructions
+## Game Instructions
 
 1.**Starting the Game**:
 
@@ -55,7 +57,7 @@ node main.js 2,3,5,4,5 5,4,6,7,7,5 4,8,9,5,3,4
 6.**Exit**:
     -Type X to exit the game at any time.
 
-##Example Output
+## Example Output
 When you start the game and make your guess:
 
 ```
@@ -73,7 +75,7 @@ You guessed correctly! You make the first move.
 ```
 After the game ends, the winner message is displayed in a table:
 if you win
-```YOU WIN! 🎉 (8 > 5)!````
+```YOU WIN! 🎉 (8 > 5)!```
 or
 ```I WIN! 😈 (8 > 4)!``` 
 in case you lose
@@ -81,7 +83,7 @@ or
 ```It is a tie```
 in case of tie.
 
-##Contributing
+## Contributing
 
 1. Fork the repository.
 2. Create a new branch for your feature or bugfix.
